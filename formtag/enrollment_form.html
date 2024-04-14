@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment form</title>
+</head>
+<body>
+    <h2> <center>Student Enrollment form</center></h2><br>
+    <form action="main.java">
+    <table>
+            <tr>
+                <td> <label for="name">Name :</label></td>
+                <td><input type="text" id="name" placeholder="Enter your name"></td>
+            </tr>
+            <tr>
+                <td>  <label for="Email">Email :</label></td>
+                <td><input type="email" id="Email" placeholder="Enter your mail"></td>
+            </tr>
+            <tr>
+                <td> <label for="Password">Password :</label></td>
+                <td><input type="password" id="Password" placeholder="Enter your Password"></td>
+            </tr>
+            <tr>
+                <td>   <label for="confirm password">Confirm Password :</label></td>
+                <td> <input type="password" id="Password" placeholder="Re-Enter your Password"></td>
+            </tr>
+            <tr>
+                <td><label for="address" >Address : </label></td>
+                <td><textarea rows="5" cols="25" placeholder="Enter Your Address"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="text">College name : </label></td>
+                <td><input type="text" id="text" placeholder="Enter College Name"></td>
+            </tr>
+            <tr>
+                <td><label for="branch name">Branch Name : </label></td>
+                <td> <input type="text" id="branch name" placeholder="Enter Your Branch"></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of birth :</label></td>
+                <td><input type="date" id="dob"></td>
+            </tr>
+            <tr> 
+                <td><label for="number">Phone number: </label></td>
+                <td><select>
+                    <option>+91 </option>
+                    <option>+1 </option>
+                </select>  
+                    <input type="number" id="number" placeholder="Enter Your Number"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender:</label></td>
+                <td><input type="radio" name="gender">Male <input type="radio" name="gender">Female <input type="radio" name="gender">Other's</td>
+            </tr>
+            <tr>
+                <td><label for="Hobbies"> Hobbies :</label></td>
+                <td><input type="checkbox">Music <input type="checkbox">Sports <input type="checkbox">Games <input type="checkbox">Other</td>
+            </tr>
+            <tr><td colspan="2" align="center">&nbsp;</td></tr>
+
+            <tr><td colspan="2" align="center"><center><button>Submit</button></center></td></tr>
+    </table>
+
+    </form>
+</body>
+</html>
