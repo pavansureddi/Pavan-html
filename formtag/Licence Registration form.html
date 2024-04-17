@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Licence Registration Form</title>
+</head>
+<body>
+    <h2><center><u>LICENCE REGISTRATION FORM</u></center></h2>
+    <form action="main.java">
+    <table>
+    <tr>
+      <td> <label for="ne" >Name : </label></td>
+      <td><input type="text" id="ne" placeholder="Enter Your Name"></td><br><br>
+    </tr>
+    <tr>
+        <td> <label for="email"> Email : </label> </td>
+        <td><input type="email" id="email" placeholder="Enter Your Email"></td>
+    </tr>
+    <tr>
+        <td><label for="dob"> D.O.B : </label></td>
+        <td> <input type="date" id="dob"></td>
+    </tr>
+    <tr>
+        <td><label for="age">Age : </label></td>
+        <td><input type="number" id="age" min="18" placeholder="Enter Your Age"></td>
+    </tr>
+    <tr>
+        <td> <label for="llrno">LLR No :</label> </td>
+        <td><input type="number" id="llrno"></td>
+    </tr>
+    <tr>
+        <td><label for="mb.no">Mobile no :</label></td>
+        <td><select>
+            <option>+91</option>
+            <option>+1</option>
+            <option>+15</option>
+            <option>+92</option>
+          </select>
+          <input type="number"  maxlength="10" id="mb.no"></td>
+    </tr>
+    <tr>
+        <td><label for="gen">Gender :</label></td>
+        <td><input type="radio" name="gen" >Male <input type="radio" name="gen">Female <input type="radio" name="gen">Other's</td>
+    </tr>
+    <tr>
+        <td><label for="vtype">Vehicle Type : </label></td>
+        <td><input type="checkbox" name="vtype"> 2 wheeler<input type="checkbox" name="vtype"> 3 wheeler<input type="checkbox" name="vtype"> 4 wheeler</td>
+    </tr>
+    <tr>
+        <td><label for="svehicle">Select Vehicle : </label></td>
+        <td><select>
+            <optgroup label="2 Wheeler">
+             <option>ns 200 </option>
+             <option>royal enfield</option>
+             <option>hero honda</option>
+             <option>vispa</option>
+             <option>activa 125</option>
+             <option>access 125</option>
+             <option>Xl 100</option>
+            </optgroup>
+               <optgroup label="3 Wheeler">
+                <option>Auto</option>
+               </optgroup>
+               <optgroup label="4 Wheeler">
+                <option>xuv 700</option>
+                <option>audi</option>
+                <option>BMW</option>
+                <option>Ford</option>
+                <option>Creta</option>
+               </optgroup>
+           </select>   </td>   
+    </tr>
+    <tr><td colspan="2" align="center">&nbsp;</td></tr>
+    <tr><td colspan="2" align="center"><center><button>Submit</button></center></td></tr>
+    </table>
+</form>
+</body>
+</html>
